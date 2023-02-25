@@ -25,13 +25,14 @@ export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-11.0.16.0.8-1.amzn2.0.1.x86_64"
 PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
 
 #Save the file
-#open .bash_profile & add the following lines:
+#open .bash_profile & .bashrc add the following lines:
 export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-11.0.13.0.8-1.amzn2.0.3.x86_64"
 PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
 
 #Save the file
 
 source ~/.bash_profile
+source ~/.bashrc
 
 ****************************************************************************************************
 
