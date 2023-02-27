@@ -4,7 +4,7 @@ sudo yum install docker
 
 
 yum install docker -y
-docker --version
+docker version
 systemctl status docker
 systemctl start docker
 systemctl status docker
