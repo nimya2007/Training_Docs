@@ -1,7 +1,7 @@
 
 *******************************************************************
 *******************************************************************
-
+we can give any name like hostpath1.yaml or hostpathnew.yaml..its not compulsury like Dockerfile or Docker-compose
 # 1. HostPath YAML file
 
 apiVersion: v1
