@@ -76,14 +76,14 @@ sudo ln -s /opt/apache-maven-3.8.7 /opt/maven
 ## Check the java installed version:
 #cd /usr/lib/jvm/
 
-#eg: /usr/lib/jvm/java-11-openjdk-11.0.13.0.8-1.amzn2.0.3.x86_64
+#eg: /usr/lib/jvm/java-11-openjdk-11.0.18.0.10-1.amzn2.0.1.x86_64
 
 #open .bash_profile & add the following lines:
 
-#java-11-openjdk-11.0.16.0.8-1.amzn2.0.1.x86_64 
+#jjava-11-openjdk-11.0.18.0.10-1.amzn2.0.1.x86_64 
 
 
-export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-11.0.16.0.8-1.amzn2.0.1.x86_64"
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-11.0.18.0.10-1.amzn2.0.1.x86_64"
 export MAVEN_HOME=/opt/apache-maven-3.8.7
 export M2=/opt/apache-maven-3.8.7/bin
 PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:$MAVEN_HOME:$M2
@@ -92,7 +92,7 @@ source ~/.bash_profile
 source ~/.bashrc
 
 #open .bashrc & add the following lines:
-#export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-11.0.13.0.8-1.amzn2.0.3.x86_64"
+#export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-11.0.18.0.10-1.amzn2.0.1.x86_64"
 #export MAVEN_HOME=/opt/apache-maven-3.8.7
 #export M2=/opt/apache-maven-3.8.7/bin
 #PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:$MAVEN_HOME:$M2
