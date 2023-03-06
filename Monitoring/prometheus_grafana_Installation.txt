@@ -51,6 +51,8 @@ http://13.232.146.141:9090/
 ##  Linux Distribution :
 
 Red Hat, CentOS, RHEL, and Fedora(64 Bit)SHA256: 
+goto root level in same prometheus server
+
 
 wget https://dl.grafana.com/oss/release/grafana-9.1.2-1.x86_64.rpm
 
@@ -127,7 +129,7 @@ cd /root/prometheus-2.38.0.linux-amd64
 vi prometheus.yml
 ## Add the target with valid node_exporter port as mentioned below:
 
-- targets: ["172.31.7.193:9100"]
+- targets: ["172.31.37.75:9100"]
 
 
 ## Restart Prometheus:
@@ -174,7 +176,14 @@ sum by(mode)(irate(node_cpu_seconds_total{mode!="idle"}[5m])) > 0
 sum by(mode)(irate(node_cpu_seconds_total{mode!="idle"}[5m])) > 0
 
 Goto grafana and cl
+#Now in Grafana>goto>Dashboard>new Dashboard>Add new panel
 
+You can now edit its title to CPU utilisation or anythinhg like memory utilisation or users.Then select the datasource(prometheus)
+
+Now in click code.in that type the formula u want to see (like,sum by(mode)(irate(node_cpu_seconds_total{mode!="idle"}[5m])) > 0
+).You can also select the chart type and then apply.
+
+You can also edit the chart type and title or duplicate the panel.
 time() - node_boot_time_seconds{}
 
 100 * (1 - ((avg_over_time(node_memory_MemFree_bytes[10m]) + avg_over_time(node_memory_Cached_bytes[10m]) + avg_over_time(node_memory_Buffers_bytes[10m])) / avg_over_time(node_memory_MemTotal_bytes[10m])))
