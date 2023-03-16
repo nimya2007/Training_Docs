@@ -64,10 +64,10 @@ yum install git -y
 
 #Install Maven:
 
-sudo wget https://dlcdn.apache.org/maven/maven-3/3.8.7/binaries/apache-maven-3.8.7-bin.tar.gz
-sudo tar xf apache-maven-3.8.7-bin.tar.gz -C /opt
+sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.0/binaries/apache-maven-3.9.0-bin.tar.gz
+sudo tar xf apache-maven-3.9.0-bin.tar.gz -C /opt
 #Create a symlink for Apache maven directory to update the maven versions
-sudo ln -s /opt/apache-maven-3.8.7 /opt/maven
+sudo ln -s /opt/apache-maven-3.9.0 /opt/maven
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`````
 
