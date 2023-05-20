@@ -42,10 +42,10 @@ source ~/.bashrc
 #https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.87/bin/apache-tomcat-8.5.87.tar.gz
 
 cd /opt
-wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.87/bin/apache-tomcat-8.5.87.tar.gz
-tar -xvzf /opt/apache-tomcat-8.5.87.tar.gz
+wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.9/bin/apache-tomcat-10.1.9.tar.gz
+tar -xvzf /opt/apache-tomcat-10.1.9.tar.gz
 
-mv apache-tomcat-8.5.87 tomcat
+mv apache-tomcat-10.1.9 tomcat
 
 #Start Tomcat Server:
 #Goto:
