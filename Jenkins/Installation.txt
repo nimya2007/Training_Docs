@@ -71,6 +71,8 @@ sudo ln -s /opt/apache-maven-3.9.0 /opt/maven
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`````
 
+##slave node
+----------------
 #Set Java Path / Environment Variables:
 
 ## Check the java installed version:
