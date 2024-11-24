@@ -85,7 +85,7 @@ sudo ln -s /opt/apache-maven-3.9.2 /opt/maven
 #jjava-11-openjdk-11.0.18.0.10-1.amzn2.0.1.x86_64 
 
 
-export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-11.0.18.0.10-1.amzn2.0.1.x86_64"
+export JAVA_HOME="/usr/lib/jvm/java-17-amazon-corretto.x86_64"
 export MAVEN_HOME=/opt/apache-maven-3.9.2
 export M2=/opt/apache-maven-3.9.2/bin
 PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:$MAVEN_HOME:$M2
@@ -94,9 +94,9 @@ source ~/.bash_profile
 source ~/.bashrc
 
 #open .bashrc & add the following lines:
-#export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-11.0.18.0.10-1.amzn2.0.1.x86_64"
-#export MAVEN_HOME=/opt/apache-maven-3.8.7
-#export M2=/opt/apache-maven-3.8.7/bin
+#export JAVA_HOME="/usr/lib/jvm/java-17-amazon-corretto.x86_64"
+#export MAVEN_HOME=/opt/apache-maven-3.9.2
+#export M2=/opt/apache-maven-3.9.2/bin
 #PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:$MAVEN_HOME:$M2
 
 #source ~/.bash_profile
