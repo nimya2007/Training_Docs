@@ -116,7 +116,7 @@ source ~/.bashrc
 useradd -m -d /home/devopsadmin devopsadmin
 
 su - devopsadmin
-
+(we will be now as devopsadmin user)
 ssh-keygen
 
 ls ~/.ssh 
